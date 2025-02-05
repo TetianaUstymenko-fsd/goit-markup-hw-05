@@ -789,6 +789,10 @@ input[type="checkbox"]:checked + label .checkbox-icon {
   fill: #f4f4fd;
 }
 
+.checkbox-icon {
+  fill: #f4f4fd;
+}
+
 .privacy-link {
   color: #4d5ae5;
 }
@@ -801,6 +805,7 @@ input[type="checkbox"]:checked + label .checkbox-icon {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: rgb(255, 255, 255);
   cursor: pointer;
   background-color: rgb(77, 90, 229);
