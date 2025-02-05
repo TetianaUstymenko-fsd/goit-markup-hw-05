@@ -780,16 +780,13 @@ body {
   fill: transparent;
 }
 
-input[type="checkbox"]:checked + label .form-checkbox {
+.user-privacy-checkbox:checked + .form-label-text .form-checkbox {
   background-color: #404bbf;
   border: none;
-}
-
-input[type="checkbox"]:checked + label .checkbox-icon {
   fill: #f4f4fd;
 }
 
-.checkbox-icon {
+.user-privacy-checkbox:checked + .form-label-text .form-checkbox svg {
   fill: #f4f4fd;
 }
 
